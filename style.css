@@ -1,0 +1,51 @@
+@import url("reset.css");
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/Roboto-Medium.ttf");
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: grid;
+    place-items: center;
+}
+
+header > img {
+    border-radius: 20%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+body {
+    font-size: 1.8em;
+    display: grid;
+    place-items: center;
+}
+
+p {
+    max-width: 60ch;
+    padding: 0 20px;
+}
