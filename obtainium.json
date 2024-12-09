@@ -1,0 +1,14 @@
+{
+    "id":"me.tatarka.android.loopless",
+    "url":"https://github.com/looplessapp/loopless/releases/latest/download/manifest.json",
+    "author": "Pixel Light",
+    "name": "Loopless",
+    "overrideSource": "HTML",
+    "additionalSettings":{
+        "about": "An android app for loops.video",
+        "useVersionCodeAsOSVersion": true,
+        "apkFilterRegEx": "universal-.+\\.apk$",
+        "versionExtractionRegEx": "-(.+)\\.apk",
+        "matchGroupToUse": "1"
+    }
+}
